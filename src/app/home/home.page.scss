@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
 #container {
   text-align: center;
 
@@ -34,5 +40,26 @@ width: 160px;
 
 strong{
   font-size: 30px;
-  color: blueviolet;
+  color: black;
 }
+
+.radius {
+  border-radius: 10px;
+}
+
+ion-label {
+  h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+}
+
+ion-toolbar {
+  ion-title {
+    font-family: 'Anton', sans-serif;
+  }
+}
+
+ion-card{
+  color: blue;
+}
+
